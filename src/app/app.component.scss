@@ -1,0 +1,103 @@
+:host ::ng-deep {
+  .mdc-text-field--outlined {
+    .mat-mdc-form-field-flex {
+      /*HEIGHT AND WEIGHT MODIFICATION -- WITH LABLE*/
+      .mdc-notched-outline {
+        height: 45px;
+        padding-top: 10px;
+      }
+
+      /*HEIGHT AND WEIGHT MODIFICATION -- WITHOUT LABLE*/
+      .mdc-notched-outline--no-label {
+        height: 45px;
+        padding-top: 10px;
+      }
+
+      .mdc-notched-outline__leading {
+        border-color: #026e78 !important;
+      }
+
+      .mdc-notched-outline__notch {
+        border-color: #026e78 !important;
+
+        .mdc-floating-label {
+          cursor: inherit;
+          top: 16px;
+        }
+      }
+
+      .mdc-notched-outline__trailing {
+        border-color: #026e78 !important;
+      }
+    }
+
+    /*INPUT TEXT COLOR*/
+    .mat-mdc-form-field-flex .mat-mdc-form-field-infix .mdc-text-field__input {
+      color: red;
+    }
+
+    /* FOCUSED ELEMENT */
+    .mdc-text-field--focused {
+      .mdc-notched-outline__leading {
+        border-color: #5bdcc6 !important;
+      }
+
+      .mdc-notched-outline__notch {
+        border-color: #5bdcc6 !important;
+      }
+
+      .mdc-notched-outline__trailing {
+        border-color: #5bdcc6 !important;
+      }
+    }
+  }
+
+  /*DISABLE STATE*/
+  .mdc-text-field--disabled {
+    .mat-mdc-form-field-flex {
+      .mdc-notched-outline__leading {
+        border-color: #201a1b1f !important;
+        background: #73736b57;
+      }
+
+      .mdc-notched-outline__notch {
+        border-color: #201a1b1f !important;
+        background: #73736b57;
+      }
+
+      .mdc-notched-outline__trailing {
+        border-color: #201a1b1f !important;
+        background: #73736b57;
+      }
+    }
+  }
+
+  /* MAT FROM FILLED -- APPEREANCE = FILL  */
+  .mdc-text-field--filled {
+    background-color: #fff !important;
+    height: 40px;
+    padding-left: 3px;
+
+    .mat-mdc-form-field-flex .mat-mdc-form-field-infix {
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      /*INPUT TEXT COLOR*/
+      .mdc-text-field__input {
+        color: blue;
+        font-size: 12px;
+      }
+    }
+
+    /*ON HOVER CHANGE BACKGROUND COLOR*/
+    .mat-mdc-form-field-focus-overlay {
+      background-color: green !important;
+    }
+
+    /*CHANGE BORDER BOTTOM COLOR*/
+    .mdc-line-ripple::before,
+    .mdc-line-ripple::after {
+      border-bottom-color: blue !important;
+    }
+  }
+}
