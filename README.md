@@ -231,3 +231,6 @@ This section provides a detailed explanation of the CSS code used to customize A
    - The bottom border color is customized to blue.
 
 By applying these customizations, you can significantly enhance the visual aesthetics of Angular Material form fields in your application.
+
+
+For a hands-on example and to see these styles in action, visit the [live demo on StackBlitz](https://stackblitz.com/~/github.com/mallajay/angular-material-mat-form-field-custom-style).
