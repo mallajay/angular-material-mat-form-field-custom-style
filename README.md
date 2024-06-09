@@ -3,28 +3,35 @@
 This repository provides a custom CSS styling guide for Angular Material form fields. The styles are specifically designed to enhance the appearance of the form fields by modifying the height, padding, border colors, text colors, and other visual elements.
 
 The provided SCSS code customizes Angular Material form fields to improve their visual aesthetics. This includes:
+
 - Modifying the height and padding of the form fields.
 - Changing border colors for different states (focused, disabled).
 - Customizing input text colors.
 - Enhancing the appearance of filled form fields.
 
 ### Installation
+
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/custom-angular-material-form-fields.git
-    ```
+
+   ```bash
+   git clone https://github.com/mallajay/angular-material-mat-form-field-custom-style.git
+   ```
+
 2. Navigate to the project directory:
-    ```bash
-    cd custom-angular-material-form-fields
-    ```
+
+   ```bash
+   cd angular-material-mat-form-field-custom-style
+   ```
+
 3. Install the necessary dependencies:
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 ### Usage
-1. Add the CSS code to your Angular project's styles. You can include it in `styles.scss` or a specific component's SCSS file.
 
+1. Add the CSS code to your Angular project's styles. You can include it in `styles.scss` or a specific component's SCSS file.
 2. Use Angular Material form field components in your templates with the desired appearance:
 
 ```html
@@ -97,12 +104,6 @@ The provided SCSS code customizes Angular Material form fields to improve their 
   </mat-form-field>
 </div>
 ```
-
-
-
-
-
-
 
 This section provides a detailed explanation of the CSS code used to customize Angular Material form fields. The code is designed to enhance the visual appearance of the form fields by modifying various properties such as height, padding, border colors, text colors, and background colors.
 
