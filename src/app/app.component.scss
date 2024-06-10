@@ -37,18 +37,25 @@
     }
 
     /* FOCUSED ELEMENT */
-    .mdc-text-field--focused {
-      .mdc-notched-outline__leading {
-        border-color: #5bdcc6 !important;
-      }
+    // .mdc-text-field--focused {
+    //   .mdc-notched-outline__leading {
+    //     border-color: #5bdcc6 !important;
+    //   }
 
-      .mdc-notched-outline__notch {
-        border-color: #5bdcc6 !important;
-      }
+    //   .mdc-notched-outline__notch {
+    //     border-color: #5bdcc6 !important;
+    //   }
 
-      .mdc-notched-outline__trailing {
-        border-color: #5bdcc6 !important;
-      }
+    //   .mdc-notched-outline__trailing {
+    //     border-color: #5bdcc6 !important;
+    //   }
+    // }
+
+    :focus-within .mdc-notched-outline,
+    :focus-within .mdc-notched-outline__leading,
+    :focus-within .mdc-notched-outline__trailing {
+      border-color: #5bdcc6 !important;
+      border-width: 1px !important;
     }
   }
 
