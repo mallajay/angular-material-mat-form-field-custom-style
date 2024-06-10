@@ -163,6 +163,13 @@ This section provides a detailed explanation of the CSS code used to customize A
          border-color: #5bdcc6 !important;
        }
      }
+
+    :focus-within .mdc-notched-outline,
+    :focus-within .mdc-notched-outline__leading,
+    :focus-within .mdc-notched-outline__trailing {
+      border-color: #5bdcc6 !important;
+      border-width: 1px !important;
+    }
    }
    ```
 
